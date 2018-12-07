@@ -1,4 +1,4 @@
-package ch.bbw._ConsoleCalculator;
+package ch.bbw.ConsoleCalculator;
 
 /**
  * Hello world!
