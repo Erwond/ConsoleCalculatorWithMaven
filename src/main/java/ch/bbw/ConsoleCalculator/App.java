@@ -19,5 +19,7 @@ public class App
     	valueA = 10;
     	valueB = 20;
     	System.out.println("Die Summe von " + valueA + " und " + valueB  + " ist " + calculator.summe(valueA, valueB));
+    	System.out.println(Integer.MAX_VALUE);
+    	System.out.println(calculator.summe(Integer.MAX_VALUE, 49));
     }
 }
