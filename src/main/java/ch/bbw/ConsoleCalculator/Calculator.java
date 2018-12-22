@@ -40,13 +40,14 @@ public class Calculator {
 
 	String binaryFrom(int decimal) throws ArithmeticException{
 		if(decimal < 0){
-			throw new ArithmeticException("Negative decimal cannot be converted to binary");
+			throw new ArithmeticException("Negative decimal cannot be converted to binary in this method.");
 		}else {
 			return Integer.toBinaryString(decimal);
 		}	
 	}
 
 	private void privateCalculation() {
-		// Diese Methode kann nicht getestet werden, da sie private ist
+		// Diese Methode kann nicht getestet werden, da sie private ist.
+		// Man könnte einen PrivilegedAccessor oder Dp4 zur hilfe nehmen um diese methode trotzdem testen zu können.
 	}
 }
